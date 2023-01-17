@@ -1,0 +1,15 @@
+li {
+  color: green;
+}
+h1 {
+  color: blue;
+  font-size: 50px;
+  border: 2px solid black;
+  border-radius: 70px;
+}
+
+body {
+  background-image: url("https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027-1024x683.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
