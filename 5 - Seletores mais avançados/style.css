@@ -1,0 +1,15 @@
+li > a {
+  color: red;
+}
+
+h1 + h4 {
+  border: 4px solid;
+}
+
+a[href="/recibo"] {
+  color: green;
+}
+
+li:nth-of-type(2) {
+  color: red;
+}
