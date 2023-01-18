@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee&display=swap");
+p {
+  font-family: "geostar fill";
+}
+
+h1 {
+  font-family: "Noto Sans Cherokee";
+}
