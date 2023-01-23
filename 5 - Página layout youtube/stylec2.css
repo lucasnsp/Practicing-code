@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: darkgray;
+}
+
+.header {
+  flex-basis: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.logo-rock {
+  width: 40px;
+}
+
+.logo-onebitcode {
+  width: 200px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttonHeader {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.buttonHeader:hover {
+  border-color: #ee517b;
+}
+
+.paragraph {
+  font-size: 30px;
+  color: white;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  flex: 1 0 auto;
+}
+
+.item {
+  flex-basis: 350px;
+  height: 230px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.footer {
+  flex-basis: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
