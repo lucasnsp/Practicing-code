@@ -31,5 +31,8 @@ do {
         "Encerrando o programa, tenha um bom dia! \n\n Saldo atualizado: " +
           saldo
       );
+      break
+    default:
+      alert("Opção inválida")
   }
 } while (options !== "c");
